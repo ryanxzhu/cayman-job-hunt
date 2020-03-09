@@ -1,0 +1,7 @@
+<h2>New Job</h2>
+<%- include("../partials/errorMessage.ejs") %>
+<form action="/jobs" method="POST">
+    <%- include("_form_fields.ejs") %>
+    <a href="/jobs">Cancel</a>
+    <button type="submit">Post New Job</button>
+</form>
